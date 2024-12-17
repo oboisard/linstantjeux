@@ -1,1 +1,25 @@
+body {  
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
+body:before {
+  content: "";
+  background-image: url("../binaries/ambiance.jpg");
+  background-size: cover;
+  position: absolute; 
+  top: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+  left: 0px; 
+  opacity: 0.2;
+}
+
+#content { height: 100vh; gap:16px; }
+#content > * { z-index: 2; }
+#content img { height: 60%; }
+#content .listbi .bi {
+  font-size:2rem;
+}
