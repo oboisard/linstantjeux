@@ -17,9 +17,9 @@ body:before {
   opacity: 0.2;
 }
 
-#content { height: 100vh; gap:16px; }
+#content { height: 100vh; gap:32px; }
 #content > * { z-index: 2; }
-#content img { height: 60%; }
+#content img { width: 100%; }
 #content .listbi .bi {
   font-size:2rem;
 }
